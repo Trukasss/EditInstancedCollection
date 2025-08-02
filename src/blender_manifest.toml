@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+
+id = "edit_instanced_collection"
+version = "0.0.1"
+name = "Edit Instanced Collection"
+tagline = "Quickly find the instanced collection source"
+maintainer = "Lukas Sabaliauskas <lukas_sabaliauskas@hotmail.com>"
+type = "add-on"
+tags = ["Object", "User Interface"]
+blender_version_min = "4.2.0"
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
