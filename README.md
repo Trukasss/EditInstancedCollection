@@ -7,10 +7,10 @@ Lost in a large scene with lots of instances ? This addon adds one button "Show 
 
 
 ### Overview
-This addon looks for the source collection through all the scenes and view layers, switched you to the right scene and view layer, selects the collection, the objects inside and frames them.
+This addon looks for the source Collection through all the Scenes and View Layers, switched you to the right Scene and View Layer, selects the right Collection, the objects inside and frames them.
 
 
 ### Notes
-- If a View Layer has the source collection already "checked" it switched to that layer. 
-- If none of the View Layers have that collection "checked", is checks it in the current View Layer.
-- If the source collection is nowhere to be found in the existing scenes, it creates a new scene with the collection name and switched to it.
+- If a View Layer has the source Collection already "checked" it switched to that layer. 
+- If none of the View Layers have that collection "checked", it checks it in the current View Layer.
+- If the source Collection is nowhere to be found in the existing Scenes, it creates a new Scene with the Collection name and switched to it.
