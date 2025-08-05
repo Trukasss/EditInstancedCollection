@@ -11,6 +11,10 @@ bl_info = {
 
 import bpy
 from bpy.types import Operator, Context, Object, Collection, LayerCollection, Scene, ViewLayer
+import importlib
+
+from . import icons
+importlib.reload(icons)
 
 
 def is_collection_instance(object: Object):
@@ -126,10 +130,11 @@ class EIC_OT_ShowSource(Operator):
 def draw_operator(self, context: Context):
     if is_collection_instance(context.object):
         layout = self.layout
-        layout.operator(EIC_OT_ShowSource.bl_idname, icon="ZOOM_ALL")
+        layout.operator(EIC_OT_ShowSource.bl_idname, icon_value=icons.get_search_id())
 
 
 def register():
+    icons.register()
     bpy.utils.register_class(EIC_OT_ShowSource)
     bpy.types.OBJECT_PT_instancing.append(draw_operator)
 
@@ -137,3 +142,4 @@ def register():
 def unregister():
     bpy.types.OBJECT_PT_instancing.remove(draw_operator)
     bpy.utils.unregister_class(EIC_OT_ShowSource)
+    icons.unregister()
