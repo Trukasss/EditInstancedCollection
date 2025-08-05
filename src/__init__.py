@@ -2,7 +2,7 @@ bl_info = {
     "name": "Edit Instanced Collection",
     "description": "Quickly find the instanced collection source",
     "author": "Lukas Sabaliauskas <lukas_sabaliauskas@hotmail.com>",
-    "version": (0, 0, 2),
+    "version": (0, 0, 3),
     "blender": (4, 0, 0),
     "location": "Object Properties > Instancing",
     # "doc_url": "https://extensions.blender.org/add-ons/",
