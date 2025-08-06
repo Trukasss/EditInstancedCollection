@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "edit_instanced_collection"
-version = "0.0.3"
+version = "0.0.4"
 name = "Edit Instanced Collection"
 tagline = "Quickly find the instanced collection source"
 maintainer = "Lukas Sabaliauskas <lukas_sabaliauskas@hotmail.com>"

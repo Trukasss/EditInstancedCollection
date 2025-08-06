@@ -2,11 +2,11 @@ bl_info = {
     "name": "Edit Instanced Collection",
     "description": "Quickly find the instanced collection source",
     "author": "Lukas Sabaliauskas <lukas_sabaliauskas@hotmail.com>",
-    "version": (0, 0, 3),
+    "version": (0, 0, 4),
     "blender": (4, 0, 0),
     "location": "Object Properties > Instancing",
-    # "doc_url": "https://extensions.blender.org/add-ons/",
-    # "tracker_url": "https://github.com/Trukasss/",
+    "doc_url": "https://extensions.blender.org/add-ons/edit-instanced-collection",
+    "tracker_url": "https://github.com/Trukasss/EditInstancedCollection",
 }
 
 import bpy
