@@ -9,12 +9,16 @@ bl_info = {
     "tracker_url": "https://github.com/Trukasss/EditInstancedCollection",
 }
 
+
+is_reloading = "bpy" in locals()
+
 import bpy
 from bpy.types import Operator, Context, Object, Collection, LayerCollection, Scene, ViewLayer
-import importlib
-
 from . import icons
-importlib.reload(icons)
+
+if is_reloading:
+    import importlib
+    importlib.reload(icons)
 
 
 def is_collection_instance(object: Object):
